@@ -65,22 +65,10 @@ public class Ball : MonoBehaviour
         }
     }
 
-    // private void OnCollisionEnter(Collision collision)
-    // {
-    //     Debug.Log("Collision!");
-
-    //     if (collision.gameObject.layer == 9) // Cloth
-    //     {
-    //         Debug.Log("Collided with Cloth!");
-    //     }
-
-    // }
-
     private float clickDepth = 1f;
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("A Trigger has been Entered");
 
         if (other.gameObject.layer == 4) // Water layer
         {
@@ -90,7 +78,6 @@ public class Ball : MonoBehaviour
 
         if (other.gameObject.layer == 7) // FireTrigger layer
         {
-            Debug.Log("Fire has been triggered");
 
             // Enable "clicking" functionality
             other.transform.position += new Vector3 (0f, -clickDepth, 0f);
