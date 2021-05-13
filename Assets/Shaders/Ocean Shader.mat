@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ocean Shader
+  m_Shader: {fileID: -6465566751694194690, guid: db9a8b39d4dbfc14baf7590c849933cc, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_7994ce88504e499d92facaf1c94160e5:
+        m_Texture: {fileID: 2800000, guid: 0e00b0eb5cf76e4419db253e059b9ca6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1715f1505b5a4b7fbade6fc0681c3838: 0.5
+    - Vector1_4196d5e9e54a40d7b82bcfa892c8c2e1: 0.93
+    - Vector1_6dc263a5a0084f86a613adafb648f5b4: -0.64
+    - Vector1_8ad8b727ffa04b2ead19269e4d480af8: 6.02
+    - Vector1_9c7fae419ce6490fa9308fc72fbead04: 1.86
+    - Vector1_ad62a40ccb3d4e22af34f406485e5e23: 2.94
+    - Vector1_b5956ff1d1a7449e8ffcd1081429c6fe: 0.3
+    - Vector1_db88ac9ae7d444fa9f05b16aa5ab9213: 1
+    - Vector1_deedfafc86a445a1b4e9ffd5e096e2f1: 10
+    - Vector1_ed427021fad04aebb863c246be2e62b5: 0.01
+    - Vector1_efc648c90eec49188e5f6a42532de210: -18.8
+    m_Colors:
+    - Color_bb604bfc1fa14971ad825ccfac2f7c34: {r: 0.11273279, g: 0.40165952, b: 0.9433962, a: 0}
+    - Color_e1a37f6816cd47e5a3d73397f9e34a82: {r: 0.083451904, g: 0.5924008, b: 0.9150943, a: 0}
+    - Vector2_07831f2babaf4b279362e1b626c8d044: {r: 0.2, g: -6, b: 0, a: 0}
+    - Vector2_78c809caa76345a1a4253a59a1c6c1ee: {r: -23.3, g: 30.42, b: 0, a: 0}
+  m_BuildTextureStacks: []
